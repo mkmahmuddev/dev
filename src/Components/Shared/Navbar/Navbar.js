@@ -14,10 +14,10 @@ const Navbar = () => {
         <div className='flex justify-between py-2 md:flex-row-reverse' >
             <div className='md:hidden'>
                 {
-                    icon ? <FontAwesomeIcon className='cursor-pointer'  onClick={() => { setIcon(!icon) }} size='xl' icon="fa-bars" /> : ''
+                    icon ? <FontAwesomeIcon className='cursor-pointer' onClick={() => { setIcon(!icon) }} size='xl' icon="fa-bars" /> : ''
                 }
                 {
-                    !icon ? <div className='mobile-menu absolute bg-[#e84949c2] h-screen w-full top-0 left-0'>
+                    !icon ? <div className='mobile-menu absolute bg-[#e84949fa] z-10 h-screen w-full top-0 left-0'>
                         {
                             !icon ? <div className='absolute top-2 left-2'><FontAwesomeIcon className='cursor-pointer' onClick={() => { setIcon(!icon) }} size='xl' icon="fa-x" /></div> : ''
                         }
@@ -41,7 +41,7 @@ const Navbar = () => {
             <div>
                 <Link to='/'> <img src={logo} alt="" /></Link>
             </div>
-           
+
         </div>
     );
 };
