@@ -9,9 +9,8 @@ const Project = () => {
             <div className=' bg-white rounded'>
                 <img src={image1} className='w-full' alt="" />
                 <p className='text-[#818080] text-[18px] p-2'>Made a social media manager template using HTML 5, CSS and JS only.</p>
-                <div className='flex justify-between p-5'>
+                <div className='flex justify-center p-5'>
                     <SecButton content='Details'></SecButton>
-                    <Button content='Live' ></Button>
                 </div>
             </div>
         </div>

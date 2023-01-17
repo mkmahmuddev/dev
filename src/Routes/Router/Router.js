@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Main from '../../Layouts/Main/Main';
 import Home from '../../Pages/Home/Home';
+import Projects from '../../Pages/Projects/Projects';
 
 
 const Router = () => {
@@ -18,6 +19,10 @@ const Router = () => {
                 {
                     path: '/',
                     element: <Home></Home>
+                },
+                {
+                    path:'/projects',
+                    element:<Projects></Projects>
                 }
             ]
         },

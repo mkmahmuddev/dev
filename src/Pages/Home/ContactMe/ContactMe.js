@@ -16,6 +16,7 @@ const ContactMe = () => {
                 </div>
                 <div className="contact-form w-full">
                     <form>
+                        <input type="text" className='border-2 p-2 w-full rounded-lg shadow-lg text-[16px] my-5 focus:outline-none' placeholder='Enter Name' name="" id="" />
                         <input type="email" className='border-2 p-2 w-full rounded-lg shadow-lg text-[16px] my-5 focus:outline-none' placeholder='Enter email address' name="" id="" />
                         <textarea name="message" className='border-2 p-2 w-full rounded-lg shadow-lg text-[16px] my-2 focus:outline-none' placeholder='Message' id="" cols="20" rows="5"></textarea>
                         <button onClick={handelSubmit} className={`h-[46px] w-[114px] bg-[#4F47C8] text-white py-2.5 px-10 rounded my-5 `}> <div className='flex justify-center'><span>Send</span> <img className='px-2' src={planeIcon} alt="" /></div></button>
