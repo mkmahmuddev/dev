@@ -17,7 +17,7 @@ const Navbar = () => {
                     icon ? <FontAwesomeIcon className='cursor-pointer' onClick={() => { setIcon(!icon) }} size='xl' icon="fa-bars" /> : ''
                 }
                 {
-                    !icon ? <div className='mobile-menu absolute bg-[#e84949fa] z-10 h-screen w-full top-0 left-0'>
+                    !icon ? <div className='mobile-menu fixed bg-[#e84949fa] z-10 h-screen w-full top-0 left-0'>
                         {
                             !icon ? <div className='absolute top-2 left-2'><FontAwesomeIcon className='cursor-pointer' onClick={() => { setIcon(!icon) }} size='xl' icon="fa-x" /></div> : ''
                         }

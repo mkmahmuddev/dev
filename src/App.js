@@ -7,7 +7,7 @@ library.add(faX, faBars)
 
 function App() {
   return (
-    <div className="App min-w-[360px] max-w-[1440px] border-2 m-auto px-2">
+    <div className="App min-w-[360px] max-w-[1440px] border-2 m-auto px-2 md:px-20">
       <Router>
       </Router>
     </div>

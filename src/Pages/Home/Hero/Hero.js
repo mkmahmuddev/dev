@@ -11,18 +11,18 @@ const Hero = () => {
     return (
         <div className=' py-10 md:flex md:flex-row-reverse items-center md:py-24 justify-between'>
             <div className="hero-image w-full">
-                <div className="image w-[300px] my-4 mx-auto p-4 relative md:mr-0">
+                <div className="image w-[300px] my-4 mx-auto p-4 relative md:mr-0 md:h-[497px] md:w-[411px] ">
                     <img src={subHeroImage} className="absolute top-2 left-2" alt="" />
                     <img src={subHeroImage1} className="absolute top-0 left-2/4" alt="" />
                     <img src={subHeroImage2} className="absolute top-0 right-0" alt="" />
                     <img src={subHeroImage3} className="absolute bottom-0 left-6" alt="" />
                     <img src={subHeroImage4} className="absolute bottom-0 right-0" alt="" />
-                    <img className='block m-auto' src={heroImage} alt="" />
+                    <img className='block m-auto md:h-[390px]' src={heroImage} alt="" />
                 </div>
             </div>
             <div className="hero-text md:text-left">
-                <h2 className='text-[32px] text-bold'>Hi! John Doe</h2>
-                <p className='text-[18px] '>I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.</p>
+                <h2 className='text-[32px] font-bold text-[#343D68]'>Hi! John Doe</h2>
+                <p className='text-[18px] py-5'>I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.</p>
                 <Button content='Hire me'></Button>
             </div>
         </div>
