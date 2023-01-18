@@ -7,6 +7,7 @@ import {
 import Main from '../../Layouts/Main/Main';
 import Aboutme from '../../Pages/AboutMe/Aboutme';
 import Blog from '../../Pages/Blog/Blog';
+import BlogDetails from '../../Pages/BlogDetails/BlogDetails';
 import Contact from '../../Pages/Contact/Contact';
 import Details from '../../Pages/Details/Details';
 import Home from '../../Pages/Home/Home';
@@ -57,6 +58,10 @@ const Router = () => {
                 {
                     path:'/resume',
                     element: <MyResume></MyResume>
+                },
+                {
+                    path:'/blogdetails',
+                    element: <BlogDetails></BlogDetails>
                 }
             ]
         },
