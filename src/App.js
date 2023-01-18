@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Router from './Routes/Router/Router';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faX, faBars, faCircleDot, faArrowsToDot } from '@fortawesome/free-solid-svg-icons';
-library.add(faX, faBars, faCircleDot, faArrowsToDot, faCircleDot)
+import { faX, faBars, faCircleDot, faArrowsToDot, faBriefcase, faSchool } from '@fortawesome/free-solid-svg-icons';
+library.add(faX, faBars, faCircleDot, faArrowsToDot, faBriefcase, faSchool)
 
 function App() {
   return (

@@ -6,7 +6,7 @@ const Blog = () => {
 
     return (
         <div>
-          Blog  
+           <h2 className='text-4xl text-[#E84949] text-left py-24'>Blog</h2>  
         </div>
     );
 };

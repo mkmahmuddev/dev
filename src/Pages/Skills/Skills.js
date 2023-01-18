@@ -6,7 +6,7 @@ const Skills = () => {
 
     return (
         <div>
-            Skills
+             <h2 className='text-4xl text-[#E84949] text-left py-24'>Skills</h2>
         </div>
     );
 };
