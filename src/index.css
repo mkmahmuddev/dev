@@ -5,6 +5,8 @@
 /* Google Font ('Be Vietnam')  */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
+
+
 body {
   margin: 0;
   font-family: 'Be Vietnam Pro', sans-serif;
@@ -19,4 +21,8 @@ code {
 
 a{
   font-size: 18px;
+}
+
+canvas{
+  margin:0px auto ;
 }

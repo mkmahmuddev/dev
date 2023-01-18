@@ -12,6 +12,7 @@ import Details from '../../Pages/Details/Details';
 import Home from '../../Pages/Home/Home';
 import NotFound from '../../Pages/NotFount/NotFound';
 import Projects from '../../Pages/Projects/Projects';
+import MyResume from '../../Pages/Resume/MyResume';
 import Skills from '../../Pages/Skills/Skills';
 
 
@@ -52,6 +53,10 @@ const Router = () => {
                 {
                     path:'/skills',
                     element: <Skills></Skills>
+                },
+                {
+                    path:'/resume',
+                    element: <MyResume></MyResume>
                 }
             ]
         },

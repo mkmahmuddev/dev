@@ -41,7 +41,7 @@ const Navbar = () => {
                 <Link to='/contact' className='hover:border-b-4 border-[#4F47C8] mx-10'>Contact me</Link>
             </div>
             <div>
-                <Link to='/'> <img src={logo} alt="" /></Link>
+                <Link to='/'> <img className='h-7 md:h-16' src={logo} alt="" /></Link>
             </div>
 
         </div>
