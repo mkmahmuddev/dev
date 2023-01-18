@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Project from '../../Components/Project/Project';
+import useTitle from '../../Hooks/useTitle';
 
 const Projects = () => {
+    useTitle('Projects')
 
     const [projects, setProjects] = useState([]);
 

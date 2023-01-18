@@ -1,8 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import useTitle from '../../Hooks/useTitle';
 
 const Details = () => {
+    useTitle('Projects Details')
 
     const { id } = useParams();
 
