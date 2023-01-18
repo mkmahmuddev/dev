@@ -5,6 +5,7 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import Main from '../../Layouts/Main/Main';
+import Details from '../../Pages/Details/Details';
 import Home from '../../Pages/Home/Home';
 import Projects from '../../Pages/Projects/Projects';
 
@@ -23,6 +24,13 @@ const Router = () => {
                 {
                     path:'/projects',
                     element:<Projects></Projects>
+                },
+                {
+                    path:'/details/:id',
+                    loader: async () => {
+                       return fetch('https://mkmahmuddev.github.io/data/data.json')
+                    },
+                    element: <Details></Details>
                 }
             ]
         },

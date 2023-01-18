@@ -2,12 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Router from './Routes/Router/Router';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faX, faBars } from '@fortawesome/free-solid-svg-icons'
-library.add(faX, faBars)
+import { faX, faBars, faCircleDot, faArrowsToDot } from '@fortawesome/free-solid-svg-icons'
+library.add(faX, faBars, faCircleDot, faArrowsToDot, faCircleDot)
 
 function App() {
   return (
-    <div className="App min-w-[360px] max-w-[1440px] border-2 m-auto px-2 md:px-20">
+    <div className="App min-w-[360px] max-w-[1440px] m-auto px-2 md:px-5">
       <Router>
       </Router>
     </div>

@@ -4,11 +4,11 @@ import KeywordButton from '../KeywordButton/KeywordButton';
 
 const Project = ({data}) => {
 
-    const {title, image, technologies} = data;
+    const {title, image, technologies, _id} = data;
 
     return (
         <div className='my-5 mx-2'>
-            <Link>
+            <Link to={`/details/${_id}`}>
                 <div className='overflow-hidden'>
                     <img src={image} className='hover:scale-125' alt="" />
                 </div>

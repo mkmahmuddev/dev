@@ -11,7 +11,7 @@ const Projects = () => {
  
 
     useEffect(() => {
-        fetch('projects.json')
+        fetch('https://mkmahmuddev.github.io/data/data.json')
             .then(res => res.json())
             .then(data => {
                 setProjects([data[0], data[1]])
@@ -19,7 +19,6 @@ const Projects = () => {
 
     }, [])
 
-    console.log(projects)
 
     return (
         <div className='bg-[#F4FBFC] p-5'>
