@@ -23,7 +23,6 @@ const Navbar = () => {
                         }
                         <div className='absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4'>
                             <ul onClick={() => { setIcon(true) }}>
-                                <li className='p-5 text-white border-b-4 border-[#4F47C8] hover:border-[#FFFFFF] hover:text-[#4F47C8]' ><Link to='/skills'>Skills</Link></li>
                                 <li className='p-5 text-white border-b-4 border-[#4F47C8] hover:border-[#FFFFFF] hover:text-[#4F47C8]' ><Link to='/aboutme'>About Me</Link></li>
                                 <li className='p-5 text-white border-b-4 border-[#4F47C8] hover:border-[#FFFFFF] hover:text-[#4F47C8]' >   <Link to='/projects' className='flex justify-center items-center]'><img className='px-2' src={projectIconF} alt="" /> Projects</Link></li>
                                 <li className='p-5 text-white border-b-4 border-[#4F47C8] hover:border-[#FFFFFF] hover:text-[#4F47C8]' ><Link to='/blog'>Blog</Link></li>
@@ -36,8 +35,7 @@ const Navbar = () => {
 
             </div>
             <div className='hidden menus md:flex justify-center items-center'>
-                <Link to='/aboutme' className='hover:border-b-4 border-[#4F47C8] mx-10'>About Me</Link>
-                <Link to='/skills' className='hover:border-b-4 border-[#4F47C8]'>Skills</Link>
+                <Link to='/aboutme' className='hover:border-b-4 border-[#4F47C8] '>About Me</Link>
                 <Link to='/projects' className='flex justify-center items-center px-10 text-[#E84949]'><img className='px-2' src={projectIcon} alt="" /> Projects</Link>
                 <Link to='/blog' className='hover:border-b-4 border-[#4F47C8] '>Blog</Link>
                 <Link to='/contact' className='hover:border-b-4 border-[#4F47C8] mx-10'>Contact me</Link>

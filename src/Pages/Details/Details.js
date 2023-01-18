@@ -47,15 +47,15 @@ const Details = () => {
                 </div>
             </div>
             <div className="chlangesAndFetures text-left text-white py-10 md:flex">
-                <div className="Challenges px-4 py-6 bg-[#E84949] w-full md:mx-5">
+                <div className="Challenges px-4 py-6 bg-[#E84949] w-full md:mx-5"  data-aos="flip-left">
                     <h2 className='font-bold text-[24px] '>Challenges</h2>
-                    <ul className='py-4'>
+                    <ul className='py-4' >
                         {
                             challenges?.map(challenge => <li className='py-2'><FontAwesomeIcon icon="fa-arrows-to-dot" className='pr-2' />{challenge.name}</li>)
                         }
                     </ul>
                 </div>
-                <div className="Solutions px-4 py-6 bg-[#4F47C8] w-full md:mx-5">
+                <div className="Solutions px-4 py-6 bg-[#4F47C8] w-full md:mx-5"  data-aos="flip-right">
                     <h2 className='font-bold text-[24px]  '>Solutions</h2>
                     <ul className='py-4'>
                         {

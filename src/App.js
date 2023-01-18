@@ -3,6 +3,12 @@ import './App.css';
 import Router from './Routes/Router/Router';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faX, faBars, faCircleDot, faArrowsToDot, faBriefcase, faSchool } from '@fortawesome/free-solid-svg-icons';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 library.add(faX, faBars, faCircleDot, faArrowsToDot, faBriefcase, faSchool)
 
 function App() {

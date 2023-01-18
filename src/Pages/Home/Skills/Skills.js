@@ -10,7 +10,7 @@ const Skills = () => {
         <div className='py-24'>
             <h2 className='text-[25px] text-[#E84949] font-bold'>Skills</h2>
             <div className="skills py-5 md:flex md:flex-row-reverse items-center md:py-24 justify-between">
-                <div className="skillsImage">
+                <div className="skillsImage" data-aos="fade-up-left">
                     <img className='block mx-auto' src={skillsImage} alt="" />
                 </div>
                 <div className="skillsContent py-5">

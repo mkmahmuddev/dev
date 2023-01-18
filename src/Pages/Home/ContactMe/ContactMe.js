@@ -11,7 +11,7 @@ const ContactMe = () => {
         <div className='py-24 my-10'>
             <h2 className='text-[25px] text-[#E84949] font-bold py-10'>Contact Me</h2>
             <div className='md:flex items-center'>
-                <div className="contact-image py-10 w-full">
+                <div className="contact-image py-10 w-full" data-aos="zoom-in">
                     <img className='block mx-auto ' src={contactImage} alt="" />
                 </div>
                 <div className="contact-form w-full">
