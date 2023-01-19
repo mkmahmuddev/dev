@@ -1,9 +1,13 @@
 import React from 'react';
 import skillsImage from '../../../Assets/skills/skills.png';
-import skill1 from '../../../Assets/skills/Group 20.png'
-import skill2 from '../../../Assets/skills/Group 22.png'
-import skill3 from '../../../Assets/skills/Group 21.png'
-import skill4 from '../../../Assets/skills/Group 23.png'
+import spring from '../../../Assets/skills/spring.png';
+import node from '../../../Assets/skills/node.png';
+import javaScript from '../../../Assets/skills/js.png';
+import typeScript from '../../../Assets/skills/ts.png';
+import react from '../../../Assets/skills/react.png';
+import mongo from '../../../Assets/skills/mongo.png';
+import aws from '../../../Assets/skills/aws.png';
+import hib from '../../../Assets/skills/hib.png';
 
 const Skills = () => {
     return (
@@ -17,28 +21,36 @@ const Skills = () => {
                     <p className='text-[#818080] text-[18px]'>I have a vast experience in the following web technologies:</p>
                     <div className="skill grid grid-cols-2 gap-2 md:grid-cols-4 py-5">
                         <div className="singelSkill">
-                            <img className='block mx-auto py-2' src={skill1} alt="" />
-                            <h3>CSS3</h3>
+                            <img className='block mx-auto py-2 h-20 w-20' src={spring} alt="" />
+                            <h3>Spring Boot</h3>
                         </div>
                         <div className="singelSkill">
-                            <img className='block mx-auto py-2' src={skill2} alt="" />
-                            <h3>HTML5</h3>
+                            <img className='block mx-auto py-2 h-20 w-20' src={node} alt="" />
+                            <h3>Node JS</h3>
                         </div>
                         <div className="singelSkill">
-                            <img className='block mx-auto py-2' src={skill3} alt="" />
+                            <img className='block mx-auto py-2 h-20 w-20' src={javaScript} alt="" />
                             <h3>JavaScript</h3>
                         </div>
                         <div className="singelSkill">
-                            <img className='block mx-auto py-2' src={skill4} alt="" />
-                            <h3>Bootstrap</h3>
+                            <img className='block mx-auto py-2 h-20 w-20' src={typeScript} alt="" />
+                            <h3>TypeScript</h3>
                         </div>
                         <div className="singelSkill">
-                            <img className='block mx-auto py-2' src={skill4} alt="" />
-                            <h3>Bootstrap</h3>
+                            <img className='block mx-auto py-2 h-20 w-20' src={react} alt="" />
+                            <h3>React JS</h3>
                         </div>
                         <div className="singelSkill">
-                            <img className='block mx-auto py-2' src={skill4} alt="" />
-                            <h3>Bootstrap</h3>
+                            <img className='block mx-auto py-2 h-20 w-20' src={mongo} alt="" />
+                            <h3>MongoDB</h3>
+                        </div>
+                        <div className="singelSkill">
+                            <img className='block mx-auto py-2 h-20 w-20' src={aws} alt="" />
+                            <h3>AWS</h3>
+                        </div>
+                        <div className="singelSkill">
+                            <img className='block mx-auto py-2 h-20 w-20' src={hib} alt="" />
+                            <h3>Hibernate</h3>
                         </div>
                     </div>
                 </div>

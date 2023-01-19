@@ -18,9 +18,15 @@ const Aboutme = () => {
             <div className=' py-10 md:flex md:flex-row-reverse items-center  justify-between'>
                 <div className="hero-text md:text-left w-full">
                     <h2 className='text-[32px] font-bold text-[#343D68]'>I am senior software engineer specialized in Java</h2>
-                    <p className='text-[18px] py-5'>I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.</p>
-                    <p className='text-[18px] py-5'>I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.</p>
-                    <Button content='Hire me'></Button>
+                    <p className='text-[18px] py-5'>
+                        I am a senior developer with 10+ years of software and IT experience building Java and JavaScript
+                        applications with React(Router, Hooks), Node, Express, Java Spring, and SQL/NoSQL databases, as well as
+                        in a HIPPA-compliant way.
+                    </p>
+                    <p className='text-[18px] py-5'>
+                        I am an ambitious, passionate, and motivated coder and a Product manager.
+                    </p> 
+                    <Button content='Resume' path='/resume'></Button>
                 </div>
                 <div className="hero-image w-full">
                     <div className="image w-[300px] my-4 mx-auto p-4 relative md:mr-0 md:h-[497px] md:w-[411px] ">
