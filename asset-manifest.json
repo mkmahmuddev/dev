@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/dev/static/css/main.cea36ada.css",
+    "main.js": "/dev/static/js/main.27c0ef30.js",
+    "static/js/787.d0fc6f61.chunk.js": "/dev/static/js/787.d0fc6f61.chunk.js",
+    "static/media/pdf.worker.js": "/dev/static/media/pdf.worker.3a48c91b86e983a85bb0.js",
+    "static/media/Timothy-resume.pdf": "/dev/static/media/Timothy-resume.13dd3e9e2c1731635abe.pdf",
+    "static/media/user.png": "/dev/static/media/user.4657fd37786f26628ee5.png",
+    "static/media/aws.png": "/dev/static/media/aws.7569fd4b81606bd37e2c.png",
+    "static/media/react.png": "/dev/static/media/react.fe4aa8f63e66f01a65f7.png",
+    "static/media/mongo.png": "/dev/static/media/mongo.52af898762e8b911b5ea.png",
+    "static/media/bg.png": "/dev/static/media/bg.5aca6d8b7f277ea09762.png",
+    "static/media/node.png": "/dev/static/media/node.0c8609f2fc320c27e000.png",
+    "static/media/logo.png": "/dev/static/media/logo.8d11a4eb5aecb7cdd2c5.png",
+    "static/media/ts.png": "/dev/static/media/ts.e97180a2681f7e2dd36d.png",
+    "static/media/spring.png": "/dev/static/media/spring.a801b922771a1a0bc6dd.png",
+    "static/media/hib.png": "/dev/static/media/hib.540ac1e62607dc381b32.png",
+    "static/media/wave.svg": "/dev/static/media/wave.6c44618f179410261b5f60141b84e4f9.svg",
+    "index.html": "/dev/index.html",
+    "main.cea36ada.css.map": "/dev/static/css/main.cea36ada.css.map",
+    "main.27c0ef30.js.map": "/dev/static/js/main.27c0ef30.js.map",
+    "787.d0fc6f61.chunk.js.map": "/dev/static/js/787.d0fc6f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cea36ada.css",
+    "static/js/main.27c0ef30.js"
+  ]
+}
